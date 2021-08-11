@@ -119,7 +119,8 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I have implemented Encoder-Decoder based Image Captioning method. This method is similar to the Google NIC method.
+          I have implemented Encoder-Decoder based Image Captioning method. This method is similar to the Google NIC method proposed in the paper
+          [Show and tell: A neural image caption generator](https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Vinyals_Show_and_Tell_2015_CVPR_paper.html).
 
 
 
