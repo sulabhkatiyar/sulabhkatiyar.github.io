@@ -49,8 +49,10 @@ linkedin_username: sulabhkatiyar
 about_title: About Me
 # about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Sulabh Katiyar and I am a research student working towards my Ph.D on Image Caption Generation. My Research Interests lie in Computer Vision and Natural
-  Language Processing tasks such as Machine Translation, Image Captioning, Text Summarization, etc.
+  Hi, my name is Sulabh Katiyar and I am a research student working towards my Ph.D on Image Caption Generation. During my Ph.D I have studied Encoder-Decoder and
+  Attention based frameworks and focussed on better utilization of Visual and Semantic Information in Caption Generation process.
+  
+  My Research Interests lie in Computer Vision and Natural Language Processing tasks such as Machine Translation, Image Captioning, Text Summarization, etc.
 
 #  I am most skilled in: <mark>Python programming language</mark> and <mark>Eating Pizza</mark>
 
