@@ -80,6 +80,17 @@ content:
           
           The tentative date of my thesis submission is 17th September, 2021.
           
+    content:
+      - layout: left
+        title: M.Tech
+        caption: 2013 - 2015
+        sub_title: National Institute of Technology, Silchar
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          I have worked on Extractive Text Summarization during my M.Tech study. I have used lexical relationships among words to formulate improved method for 
+          identification of sentences from the text which can be used as summary.
+          
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
