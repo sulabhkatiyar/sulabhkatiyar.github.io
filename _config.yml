@@ -150,7 +150,7 @@ content:
           assumption that model does not need to look at visual information to predict "non-visual" words such as “the”, “of”, etc.
 
       - layout: left # top-middle
-        title: Captioning with Bi-directional LSTMs
+        title: Image Captioning with Bi-directional LSTMs
         additional_links:
           - title: Bi-Directional LSTM
             icon: fab fa-github
@@ -167,6 +167,21 @@ content:
           In this work, I have implemented three Caption Generation methods: [Bi-LSTM](https://github.com/sulabhkatiyar/Bi-LSTM),
           [Bi-S-LSTM](https://github.com/sulabhkatiyar/Bi_S_LSTM) and [Bi-F-LSTM](https://github.com/sulabhkatiyar/Bi_F_LSTM)
           proposed in the paper _Image Captioning with Deep Bidirectional LSTMs_ [[link]](https://dl.acm.org/doi/abs/10.1145/3115432). 
+          In _Bi-LSTM_ method a two layered Bi-directional LSTM network is used in which first layer models language information and second layer jointly models 
+          language and text information. In _Bi-S-LSTM_ method, stacked LSTM layers are used in which first two layers model language information and third layer
+          jointly models text and visual information. In _Bi-F-LSTM_ method, two Bi-Directional LSTM layers are used with an intermediate fully connected layer.
+          In addition, there is a residual connection between first and second Bidirectional LSTM layers which speeds up training. During inference, both forward and
+          backward LSTMs are used for Caption Generation and most likely caption from among them is selected at each time-step.
+
+      - layout: right # top-middle
+        title: Captioning with Synchronous Cross-Attention
+        additional_links:
+          - title: Synchronous Cross-Attention
+            icon: fab fa-github
+            url: https://github.com/sulabhkatiyar/IC_SCA
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
 
 
   - title: A Little More About Me
