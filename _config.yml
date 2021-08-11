@@ -90,6 +90,18 @@ content:
           I have worked on Extractive Text Summarization during my M.Tech study. I have used lexical relationships among words to formulate improved method for 
           identification of sentences from the text which can be used as summary.
           
+      - layout: left
+        title: B.Tech
+        caption: 2009 - 2013
+        sub_title: National Institute of Technology, Silchar
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          During my time at NIT Silchar I learnt the basics of Computer Science and Engineering which have served as foundation over which I have continued my studies during M.Tech
+          and Ph.D. I also learned skills such as teamwork and working to tight deadlines. I thouroughly enjoyed my time during B.Tech and learnt a lot which has helped me later in life.
+          I spent my free time participating in Quiz Competitions. I also organized a Quiz Competition during annual College Fest. In addition, I served as committee member in 
+          organizing teams of annual Alumni Meet and some technical competititions organized by Computer Science and Engineering Department
+          
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
