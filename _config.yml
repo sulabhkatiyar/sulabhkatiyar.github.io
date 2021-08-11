@@ -100,7 +100,21 @@ content:
           During my time at NIT Silchar I learnt the basics of Computer Science and Engineering which have served as foundation over which I have continued my studies during M.Tech
           and Ph.D. I also learned skills such as teamwork and working to tight deadlines. I thouroughly enjoyed my time during B.Tech and learnt a lot which has helped me later in life.
           I spent my free time participating in Quiz Competitions. I also organized a Quiz Competition during annual College Fest. In addition, I served as committee member in 
-          organizing teams of annual Alumni Meet and some technical competititions organized by Computer Science and Engineering Department
+          organizing teams of annual Alumni Meet and some technical competititions organized by Computer Science and Engineering Department.
+
+  - title: Publications
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      The accepted/published papers from my research works are as follows:
+      - Sulabh Katiyar and Samir Kumar Borgohain, “Comparative Evaluation of CNN Architectures for Image Caption Generation” 
+        International Journal of Advanced Computer Science and Applications(IJACSA), 11(12), 2020. (Published) [[pre-print]](https://arxiv.org/abs/2102.11506).
+      - Sulabh Katiyar and Samir Kumar Borgohain, “Image Captioning using Deep Stacked LSTMs, Contextual Word Embeddings and Data Augmentation” 
+        International Journal of Advanced Computer Science and Applications(IJACSA). (Accepted) [[pre-print]](https://arxiv.org/abs/2102.11237).
+      - Sulabh Katiyar and Samir Kumar Borgohain, “Analysis of Convolutional Decoder for Image Caption Generation” 
+        Book Chapter: Advances in Intelligent Systems and Computing (Accepted) [[pre-print]](Advances in Intelligent Systems and Computing).        
+      - Katiyar, Sulabh, and Samir Borgohain. "Lexical Similarity Based Query-Focused Summarization Using Artificial Immune Systems." 
+        Artificial Intelligence Perspectives and Applications. Springer, Cham, 2015. 287-296. [[paper]](https://link.springer.com/chapter/10.1007/978-3-319-18476-0_29)
+
           
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -198,8 +212,8 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          In this work, I have implemented four methods: Init-Inject, Pre-Inject, Par-Inject and Merge methods proposed in the paper 
-          _Where to put the image in an image caption generator_ 
+          In this work, I have implemented four methods: Init-Inject, Pre-Inject, Par-Inject and Merge [methods](https://github.com/sulabhkatiyar/image_in_caption) 
+          proposed in the paper _Where to put the image in an image caption generator_ 
           [[link]](https://www.cambridge.org/core/journals/natural-language-engineering/article/abs/where-to-put-the-image-in-an-image-caption-generator/A5B0ACFFE8E4AEAA5840DC61F93153F3).
           The purpose of this study is to analyze four possible ways in which visual information can be utilized by Decoder.
           In _Init-Inject_ method, image representation is used to compute initial hidden and cell states of LSTM Decoder. In _Pre-Inject_ method, the image
@@ -208,6 +222,7 @@ content:
           method, image representation is combined with word representation at each time-step whereas in _Merge_ method, LSTM decoder only gets word representation
           as input and the hidden state of LSTM is merged with image representation to generate the 1-of-K vector of next word using a fully connected layer.
 
+       
 
   - title: A Little More About Me
     layout: text
