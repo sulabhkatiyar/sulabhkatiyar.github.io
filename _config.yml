@@ -187,6 +187,16 @@ content:
           to compute relevance of visual information, in this method relevant visual information is computed using co-relation with word representation generated 
           at previous time-step. Two layered LSTM model is used where first layer computes co-relation between visual and textual representation and second layer generates
           caption based using word representation and relevant visual information computed by previous layer.
+          
+      - layout: left # top-middle
+        title: Using Image Representation for Captioning  
+        additional_links:
+          - title: How to use Image Representation for Caption Generation
+            icon: fab fa-github
+            url: https://github.com/sulabhkatiyar/image_in_caption
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
 
 
   - title: A Little More About Me
