@@ -105,7 +105,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     quote: >
-        This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+       This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
     content:
       - layout: left # top-middle
         title: Encoder-Decoder
