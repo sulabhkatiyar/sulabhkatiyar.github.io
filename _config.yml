@@ -174,7 +174,7 @@ content:
           backward LSTMs are used for Caption Generation and most likely caption from among them is selected at each time-step.
 
       - layout: right # top-middle
-        title: Captioning with Synchronous Cross-Attention
+        title: Synchronous Cross-Attention
         additional_links:
           - title: Synchronous Cross-Attention
             icon: fab fa-github
@@ -182,6 +182,11 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
+          In this work, I have implemented the method proposed in paper _Image Caption with Synchronous Cross-Attention_ 
+          [[link]](https://dl.acm.org/doi/abs/10.1145/3126686.3126714). Unlike other methods in which co-relation of visual information with LSTM hidden state is used
+          to compute relevance of visual information, in this method relevant visual information is computed using co-relation with word representation generated 
+          at previous time-step. Two layered LSTM model is used where first layer computes co-relation between visual and textual representation and second layer generates
+          caption based using word representation and relevant visual information computed by previous layer.
 
 
   - title: A Little More About Me
