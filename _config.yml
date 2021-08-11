@@ -114,6 +114,9 @@ content:
         Book Chapter: Advances in Intelligent Systems and Computing (Accepted) [[pre-print]](Advances in Intelligent Systems and Computing).        
       - Katiyar, Sulabh, and Samir Borgohain. "Lexical Similarity Based Query-Focused Summarization Using Artificial Immune Systems." 
         Artificial Intelligence Perspectives and Applications. Springer, Cham, 2015. 287-296. [[paper]](https://link.springer.com/chapter/10.1007/978-3-319-18476-0_29)
+        
+      In addition, one paper each is under review at ACM TOIT and IEEE TOMM journals which I will upload to _arxiv_ if I receive reviewers comments. Two more papers from my
+      Ph.D research are to be submitted.
 
           
   - title: Projects # Title for the section
@@ -227,15 +230,9 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-
+      During my research work, the tools that I have spent most time working on are Python language and Pytorch library. ALongside my interest in Machine Learning
+      some of my other interests are in history, politics and conflict studies, delicious food and travelling. 
+      
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
