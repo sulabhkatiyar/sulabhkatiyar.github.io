@@ -61,16 +61,25 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: Ph.D 
+        caption: 2015 - 2021
+        sub_title: National Institute of Technology, Silchar
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
+          I have studied Image Caption Generation during my Ph.D with a focus on eficient utilization of semantic and visual information 
+          for Caption Generation. I have performed comparative analysis of methods proposed in previous works and proposed methods to address
+          their limitations. Some of the works towards perusal of my Ph.D are listed below. This includes only published/accepted works.
+          - To analyse role of image representation obtained from various pre-trained Convolutional Neural Networks (CNN), I performed comparative
+          analysis of different CNN architectures to study their efficacy for Image Caption Generation task. 
+          - I have performed comparative analysis of Recurrent Neural Network based Decoder with the recently proposed Convolutional Decoder. 
+          I have observed that Convolutional Decoder does not model long term word relationships efficiently.
+          - I have proposed Encoder-Decoder and Visual Attention based Caption Generation methods using Contextual Word Embedding Representations for
+          enhanced semantic information representation and Perspective Transforms as Data Augmentation mechanism for better exploitation of Visual information.
+          In addition, I have used fine tuning of both CNN and Word embedding layers to obtain performance improvements.
+          
+          The tentative date of my thesis submission is 17th September, 2021.
+          
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
