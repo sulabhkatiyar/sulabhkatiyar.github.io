@@ -182,8 +182,9 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          In this work, I have implemented the method proposed in paper _Image Caption with Synchronous Cross-Attention_ 
-          [[link]](https://dl.acm.org/doi/abs/10.1145/3126686.3126714). Unlike other methods in which co-relation of visual information with LSTM hidden state is used
+          In this work, I have implemented [Synchronous Attention](https://github.com/sulabhkatiyar/IC_SCA) method the method proposed in paper 
+          _Image Caption with Synchronous Cross-Attention_ [[link]](https://dl.acm.org/doi/abs/10.1145/3126686.3126714). 
+          Unlike other methods in which co-relation of visual information with LSTM hidden state is used
           to compute relevance of visual information, in this method relevant visual information is computed using co-relation with word representation generated 
           at previous time-step. Two layered LSTM model is used where first layer computes co-relation between visual and textual representation and second layer generates
           caption based using word representation and relevant visual information computed by previous layer.
@@ -197,6 +198,15 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
+          In this work, I have implemented four methods: Init-Inject, Pre-Inject, Par-Inject and Merge methods proposed in the paper 
+          _Where to put the image in an image caption generator_ 
+          [[link]](https://www.cambridge.org/core/journals/natural-language-engineering/article/abs/where-to-put-the-image-in-an-image-caption-generator/A5B0ACFFE8E4AEAA5840DC61F93153F3).
+          The purpose of this study is to analyze four possible ways in which visual information can be utilized by Decoder.
+          In _Init-Inject_ method, image representation is used to compute initial hidden and cell states of LSTM Decoder. In _Pre-Inject_ method, the image
+          representation is used as input to LSTM at first time-step and at subsequent time-steps the word representation of previous word is used as input.
+          In other words, image representation is used as initial word in generation process which is generally the <START> symbol in other methods. In _Par-Inject_
+          method, image representation is combined with word representation at each time-step whereas in _Merge_ method, LSTM decoder only gets word representation
+          as input and the hidden state of LSTM is merged with image representation to generate the 1-of-K vector of next word using a fully connected layer.
 
 
   - title: A Little More About Me
