@@ -230,8 +230,9 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      During my research work, the tools that I have spent most time working on are Python language and Pytorch library. ALongside my interest in Machine Learning
-      some of my other interests are in history, politics and conflict studies, delicious food and travelling. 
+      During my research work, the tools that I have spent most time working on are Python language and Pytorch library. During early stages of my Ph.D 
+      research, I also used Keras and Tensorflow.
+      Alongside my interest in Machine Learning some of my other interests are in history, politics and conflict, eating mangoes and travelling. 
       
 # Footer
 footer_show_references: true
