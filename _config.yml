@@ -137,8 +137,8 @@ content:
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           In this work, I have implemented [Spatial](https://github.com/sulabhkatiyar/Spatial_Att) and [Adaptive](https://github.com/sulabhkatiyar/Adaptive_Att)
-          attention methods proposed in paper _Knowing When to Look: Adaptive Attention via A Visual Sentinel for Image Captioning_ [link]
-          (https://openaccess.thecvf.com/content_cvpr_2017/papers/Lu_Knowing_When_to_CVPR_2017_paper.pdf). 
+          attention methods proposed in paper _Knowing When to Look: Adaptive Attention via A Visual Sentinel for Image Captioning_ [link](https://openaccess.thecvf.com/content_cvpr_2017/papers/Lu_Knowing_When_to_CVPR_2017_paper.pdf). 
+          
 
 
 
