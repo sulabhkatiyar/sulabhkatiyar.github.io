@@ -124,8 +124,10 @@ content:
     content:
       - layout: top-middle
         title:
+        quote: >
+          I have implemented all methods using Python with Pytorch library.
         description: | # this will include new lines to allow paragraphs
-          All methods have been implemented using Python language with Pytorch Library. Additional details are available in the links provided. 
+          
         
       - layout: left # top-middle
         title: Encoder-Decoder
