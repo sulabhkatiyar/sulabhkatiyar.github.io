@@ -100,7 +100,7 @@ content:
           During my time at NIT Silchar I learnt the basics of Computer Science and Engineering which have served as foundation over which I have continued my studies during M.Tech
           and Ph.D. I also learned skills such as teamwork and working to tight deadlines. I thouroughly enjoyed my time during B.Tech and learnt a lot which has helped me later in life.
           I spent my free time participating in Quiz Competitions. I also organized a Quiz Competition during annual College Fest. In addition, I served as committee member in 
-          organizing teams of annual Alumni Meet and some technical competititions organized by Computer Science and Engineering Department.
+          organizing teams of annual Alumni Meet and some technical competitions organized by Computer Science and Engineering Department.
 
   - title: Publications
     layout: text
@@ -125,7 +125,7 @@ content:
       - layout: top-middle
         title:
         quote: >
-          I have implemented all methods using Python with Pytorch library.
+          All methods have been implemented using Python with Pytorch library. Additional details are provided in the links.
         description: | # this will include new lines to allow paragraphs
           
         
