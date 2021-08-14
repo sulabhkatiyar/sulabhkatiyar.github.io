@@ -122,6 +122,12 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title:
+        quote: >
+          I have implemented all methods using Python with Pytorch library.
+        description: | # this will include new lines to allow paragraphs
+        
       - layout: left # top-middle
         title: Encoder-Decoder
         # link: github.com/sulabhkatiyar/show_tell
@@ -133,8 +139,8 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          I have implemented all methods using Python with Pytorch library.
+        # quote: >
+        #   I have implemented all methods using Python with Pytorch library.
         description: | # this will include new lines to allow paragraphs
           I have implemented [Encoder-Decoder](github.com/sulabhkatiyar/show_tell) based Image Captioning method. 
           This method is similar to the Google NIC method proposed in the paper _Show and tell: A neural image caption generator_ 
