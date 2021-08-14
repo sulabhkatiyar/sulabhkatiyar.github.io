@@ -226,7 +226,7 @@ content:
           The purpose of this study is to analyze four possible ways in which visual information can be utilized by Decoder.
           In _Init-Inject_ method, image representation is used to compute initial hidden and cell states of LSTM Decoder. In _Pre-Inject_ method, the image
           representation is used as input to LSTM at first time-step and at subsequent time-steps the word representation of previous word is used as input.
-          In other words, image representation is used as initial word in generation process which is generally the <START> symbol in other methods. In _Par-Inject_
+          In other words, image representation is used as initial word in generation process which is generally the \<START\> symbol in other methods. In _Par-Inject_
           method, image representation is combined with word representation at each time-step whereas in _Merge_ method, LSTM decoder only gets word representation
           as input and the hidden state of LSTM is merged with image representation to generate the 1-of-K vector of next word using a fully connected layer.
 
